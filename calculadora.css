@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #555
+}
+
+.calculator {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #222;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#display {
+    width: 96%;
+    height: 20%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: seashell;
+    outline: 5px solid black;
+    border-radius: 20px;
+}
+
+.buttons {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+}
+
+.buttons button {
+    width: 70px;
+    height: 50px;
+    font-size: 18px;
+    border: 2px solid;
+    text-shadow: 1px 1px 1px #000;
+    box-shadow: 0 5px 0 dodgerblue;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 20%; /* Agrega esta línea para hacer los botones redondos */
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    transform: translateY(4px);
+    background-color: #ddd;
+}
+
+

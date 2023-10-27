@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Portfolio"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Calculadora"
+	}
+}
