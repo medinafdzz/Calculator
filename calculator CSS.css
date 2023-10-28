@@ -1,162 +1,155 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color:teal;
+  font-family: Arial, sans-serif;
+  background-color: teal;
 }
 
 /* Header */
 .header h1,
-.header button
-.header a {
-    display: inline;
-    margin-right: 80px;
+.header button .header a {
+  display: inline;
+  margin-right: 80px;
 }
 
-
-#darkModeButton{
-    background: transparent;
-    border: transparent;
-    font-size: 30px;
+#darkModeButton {
+  background: transparent;
+  border: transparent;
+  font-size: 30px;
 }
 
-.git{
-    border-radius: 100px;
-    width: 40px;
-    height: 40px;
-    margin-bottom: 5px;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-right: 8px;
-    box-shadow: 0 3px 0 gray;
-    
+.git {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-right: 8px;
+  box-shadow: 0 3px 0 gray;
 }
 
-.git:hover{
-    color: white;
-    background-color: royalblue;
-    box-shadow: none;
+.git:hover {
+  color: white;
+  background-color: royalblue;
+  box-shadow: none;
 }
 
 .calculator {
-    width: 380px;
-    height: 550px;
-    margin: auto;
-    margin-top: 200px;
+  width: 380px;
+  height: 550px;
+  margin: auto;
+  margin-top: 200px;
 }
 
-.calculator h1{
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif bold;
+.calculator h1 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif bold;
 }
 
 #display {
-    width: 75%;
-    height: 5%;
-    padding: 10px;
-    font-size: 20px;
-    color: black;
-    background-color: seashell;
-    border-radius: 60px;
-    margin-left: auto;
+  width: 75%;
+  height: 5%;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  background-color: seashell;
+  border-radius: 60px;
+  margin-left: auto;
 }
 
 .buttons {
-    display: grid;
-    margin-top: 30px;
-    grid-template-columns: repeat(5, 50px);
-    grid-gap: 15px;
-    
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(5, 50px);
+  grid-gap: 15px;
 }
 
-#operations{
-    font-size: 20px;
+#operations {
+  font-size: 20px;
 }
 
 .buttons button {
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
-    /*Add this line to make the buttons round*/
-    border-radius: 50%; 
-    cursor: pointer;
-    font-family: sans-serif;
-    font-weight: bold;
-    box-shadow: 0 4px 0 rgb(48, 48, 48);
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  /*Add this line to make the buttons round*/
+  border-radius: 50%;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  box-shadow: 0 4px 0 rgb(48, 48, 48);
 }
 
-#remove{
-    background-color: royalblue;
-    color: white;
+#remove {
+  background-color: royalblue;
+  color: white;
 }
 
 .buttons button:hover {
-    transform: translateY(4px);
-    background-color: snow;
-    box-shadow: none;
+  transform: translateY(4px);
+  background-color: snow;
+  box-shadow: none;
 }
 
 /* Dark-Light mode toggle */
 .dark-mode {
-    background-color: #222;
-    color: white;
-    /* Smooth transition of 0.5 seconds */
-    transition: background-color 0.5s, color 0.5s; 
+  background-color: #222;
+  color: white;
+  /* Smooth transition of 0.5 seconds */
+  transition: background-color 0.5s, color 0.5s;
 }
 
 /* For the light mode */
 .light-mode {
-    background-color: teal;
-    color: black;
-    /* Smooth transition of 0.5 seconds */
-    transition: background-color 0.5s, color 0.5s;
+  background-color: teal;
+  color: black;
+  /* Smooth transition of 0.5 seconds */
+  transition: background-color 0.5s, color 0.5s;
 }
 
 /* Styles for dark mode */
 body.dark-mode {
-    background-color: rgb(48, 48, 48);
-    color: white;
+  background-color: rgb(48, 48, 48);
+  color: white;
 }
 
 /* Change colors on hover in dark mode */
 body.dark-mode .buttons button:hover {
-    background-color: gray;
-    box-shadow: 0 4px 0 rgb(48, 48, 48);
+  background-color: gray;
+  box-shadow: 0 4px 0 rgb(48, 48, 48);
 }
 
 /* Change text colors in dark mode */
-body.dark-mode .buttons  {
-    color: black;
+body.dark-mode .buttons {
+  color: black;
 }
 
 /* Background color and box shadow for buttons in dark mode */
 body.dark-mode .buttons button {
-    background-color: gray;
-    box-shadow: 0 3px 0 slategray;
+  background-color: gray;
+  box-shadow: 0 3px 0 slategray;
 }
 
 /* Background color for the display in dark mode */
 body.dark-mode #display {
-    background-color: gray; 
+  background-color: gray;
 }
 
 /* Text color and background color for the "remove" button in dark mode */
 body.dark-mode #remove {
-    color: black;
-    background-color: slategray; 
+  color: black;
+  background-color: slategray;
 }
 
 /* Background color, text color, and box shadow for the "git" button in dark mode */
 body.dark-mode .git {
-    background-color: gray;
-    color: black;
-    box-shadow: 0 3px 0 slategray;
+  background-color: gray;
+  color: black;
+  box-shadow: 0 3px 0 slategray;
 }
 
 /* Hover effect for the "git" button in dark mode */
 body.dark-mode .git:hover {
-    transform: translateY(4px);
-    background-color: white;
-    box-shadow: none;
+  transform: translateY(4px);
+  background-color: white;
+  box-shadow: none;
 }
-
- 
- 
