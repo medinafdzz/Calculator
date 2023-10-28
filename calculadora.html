@@ -9,36 +9,42 @@
 </head>
 <body>
     <div class="calculator">
-        <input type="text" id="display" disabled>
+        <div class="header">
+           <h1> Calculator</h1>
+           <a href="https://github.com/medinafdzz" target="_blank" style="text-decoration: none;">
+        <button class="git">Git</button>
+    </a>
+           <button id="darkModeButton" onclick="toggleDarkMode()">🌙</button>
+        </div>
+        <input type="text" id="display" disabled 
+        value="Result">
         <div class="buttons">
-            <!-- Botones de la calculadora -->
-            <button>h</button>
-            <button>p</button>
-            <button>p</button>
-            <button>p</button>
-            <button>p</button>
+            <!-- buttons of the calculator -->
+            <button>^2</button>
+            <button>^x</button>
+            <button>√</button>
+            <button>(</button>
+            <button>)</button>
             <button>7</button>
             <button>8</button>
             <button>9</button>
-            <button>DEL</button>
-            <button>AC</button>
+            <button id="remove">DEL</button>
+            <button id="remove">AC</button>
             <button>4</button>
             <button>5</button>
             <button>6</button>
-            <button>X</button>
-            <button style="font-size: 30px;">÷</button>
+            <button id="operations">x</button>
+            <button id="operations">÷</button>
             <button>1</button>
             <button>2</button>
             <button>3</button>
-            <button>+</button>
-            <button>-</button>
+            <button id="operations">+</button>
+            <button id="operations">-</button>
             <button>0</button>
-            <button>.</button>
+            <button id="operations">.</button>
             <button>x10</button>
-            <button>ANS</button>
+            <button>Ans</button>
             <button>=</button>
-            
-           
         </div>
 </body>
 </html>

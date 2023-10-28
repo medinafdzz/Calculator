@@ -1,53 +1,153 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #555
+    background-color:teal;
+}
+
+/* Header */
+.header h1,
+.header button
+.header a {
+    display: inline;
+    margin-right: 80px;
+}
+
+
+#darkModeButton{
+    background: transparent;
+    border: transparent;
+    font-size: 30px;
+}
+
+.git{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 8px;
+    box-shadow: 0 3px 0 gray;
+    
+}
+
+.git:hover{
+    color: white;
+    background-color: royalblue;
+    box-shadow: none;
 }
 
 .calculator {
-    width: 500px;
-    height: 500px;
-    margin: 100px auto;
-    border: 2px solid #ccc;
-    border-radius: 30px;
-    padding: 10px;
-    background-color: #222;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 380px;
+    height: 550px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.calculator h1{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif bold;
 }
 
 #display {
-    width: 96%;
-    height: 20%;
-    margin-bottom: 10px;
+    width: 75%;
+    height: 5%;
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
+    color: black;
     background-color: seashell;
-    outline: 5px solid black;
-    border-radius: 20px;
+    border-radius: 60px;
+    margin-left: auto;
 }
 
 .buttons {
     display: grid;
-    margin-top: 50px;
-    grid-template-columns: repeat(5, 1fr);
+    margin-top: 30px;
+    grid-template-columns: repeat(5, 50px);
     grid-gap: 15px;
+    
+}
+
+#operations{
+    font-size: 20px;
 }
 
 .buttons button {
-    width: 70px;
+    width: 50px;
     height: 50px;
     font-size: 18px;
-    border: 2px solid;
-    text-shadow: 1px 1px 1px #000;
-    box-shadow: 0 5px 0 dodgerblue;
-    margin-left: 10px;
-    background-color: white;
-    border-radius: 20%; /* Agrega esta línea para hacer los botones redondos */
+    border-radius: 50%; /* Agrega esta línea para hacer los botones redondos */
     cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 0 4px 0 rgb(48, 48, 48);
+}
+
+#remove{
+    background-color: royalblue;
+    color: white;
 }
 
 .buttons button:hover {
     transform: translateY(4px);
-    background-color: #ddd;
+    background-color: snow;
+    box-shadow: none;
 }
 
+/*Cambio de modo oscuro-claro*/
+.dark-mode {
+    background-color: #222;
+    color: white;
+    transition: background-color 0.5s, color 0.5s; /* Transición gradual de 0.5 segundos */
+}
 
+/* Para el modo claro */
+.light-mode {
+    background-color: teal;
+    color: black;
+    transition: background-color 0.5s, color 0.5s; /* Transición gradual de 0.5 segundos */
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+    background-color: rgb(48, 48, 48); /* Fondo oscuro */
+    color: white; /* Texto blanco para el modo oscuro */
+}
+
+/* Cambiar colores al hacer hover en modo oscuro */
+body.dark-mode .buttons button:hover {
+    background-color: gray;
+    box-shadow: 0 4px 0 rgb(48, 48, 48);
+}
+
+/* Cambiar colores al hacer hover en modo oscuro */
+body.dark-mode .buttons  {
+    color: black;
+}
+
+body.dark-mode .buttons button {
+     background-color: gray; /* Texto blanco para los botones en modo oscuro */
+     box-shadow: 0 3px 0 slategray
+    }
+
+   body.dark-mode #display {
+    background-color: gray; /* Fondo para #display al hacer hover en modo oscuro */
+}
+
+body.dark-mode #remove {
+    color: black;
+    background-color: slategray; /* Fondo para #display al hacer hover en modo oscuro */
+}
+
+body.dark-mode .git{
+    background-color: gray;
+    color: black;
+    box-shadow:0 3px 0 slategray;
+}
+
+body.dark-mode .git:hover{
+    transform: translateY(4px);
+    background-color: white;
+    box-shadow: none;
+}
+ 
+ 
