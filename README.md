@@ -24,4 +24,3 @@ To use the calculator, open the `calculator Index.html` file in your web browser
 
 - [@Medinafdzz](https://github.com/medinafdzz)
 
-## License
