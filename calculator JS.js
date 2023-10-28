@@ -82,12 +82,12 @@ function toggleDarkMode() {
   const darkModeButton = document.getElementById("darkModeButton");
 
   if (darkModeButton.textContent === "🌙") {
-    // Cambiar a Dark Mode
+    // Change to Dark Mode
     body.classList.remove("light-mode");
     body.classList.add("dark-mode");
     darkModeButton.textContent = "🔅";
   } else if (darkModeButton.textContent === "🔅") {
-    // Cambiar a Light Mode
+    // Change to Light Mode
     body.classList.remove("dark-mode");
     body.classList.add("light-mode");
     darkModeButton.textContent = "🌙";
