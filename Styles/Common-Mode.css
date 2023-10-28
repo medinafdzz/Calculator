@@ -1,0 +1,35 @@
+/* Common Styles for Both Light and Dark Modes */
+/* Agrega aquí los estilos comunes que no cambian entre modos */
+
+/* Estilos comunes para el botón "Dark Mode" */
+#darkModeButton {
+    font-size: 30px;
+    background: transparent;
+    border: transparent;
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos comunes para el botón "Git" */
+  .git {
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute; /* Establece la posición absoluta para el botón */
+    bottom: 20px; /* Alinea el botón con el borde inferior */
+    right: 20px; /* Alinea el botón con el borde derecho */
+    background-color: transparent;
+    border: none;
+
+  }
+  
+  
+  /* Estilos comunes para el hover del botón "Git" */
+  .git:hover {
+    color: aliceblue;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
