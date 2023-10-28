@@ -1,4 +1,4 @@
-# Calculator
+# Calculator V1.1
 
 This is a simple calculator web application. It allows you to perform basic arithmetic operations and more.
 
