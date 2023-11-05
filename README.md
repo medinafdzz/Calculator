@@ -12,13 +12,15 @@ This is a simple calculator web application. It allows you to perform basic arit
 
 ## Usage
 
-To use the calculator, open the `calculator Index.html` file in your web browser. You can interact with the buttons to perform calculations.
+To use the calculator, download the `Calculator v1.1` file in your web browser. You can interact with the buttons to perform calculations.
 
 ## Repository Contents
 
-- `calculator Index.html`: The main HTML file for the calculator.
-- `calculator CSS.css`: CSS file for styling the calculator.
-- `calculator JS.js`: JavaScript file for calculator functionality.
+- `Index.html`: The main HTML file for the calculator.
+- `Common-Mode.css`: CSS file for styling the calculator.
+- `Light-Mode.css`: CSS file for styling the calculator.
+- `Dark-Mode.css`: CSS file for styling the calculator.
+- `Script.js`: JavaScript file for calculator functionality.
 
 ## Author
 
