@@ -1,0 +1,46 @@
+/* Styles for the Dark Mode */
+body.dark-mode {
+    background-color: rgb(48, 48, 48);
+    color: white;
+  }
+  
+  /* Change colors on hover in Dark Mode */
+  body.dark-mode .buttons button:hover {
+    background-color: gray;
+    box-shadow: 0 4px 0 rgb(48, 48, 48);
+  }
+  
+  /* Change text colors in Dark Mode */
+  body.dark-mode .buttons {
+    color: black;
+  }
+  
+  /* Background color and box shadow for buttons in Dark Mode */
+  body.dark-mode .buttons button {
+    background-color: gray;
+    box-shadow: 0 3px 0 slategray;
+  }
+  
+  /* Background color for the display in Dark Mode */
+  body.dark-mode #display {
+    background-color: gray;
+  }
+  
+  /* Text color and background color for the "Remove" button in Dark Mode */
+  body.dark-mode #remove {
+    color: black;
+    background-color: slategray;
+  }
+  
+  /* Background color, text color, and box shadow for the "Git" button in Dark Mode */
+  body.dark-mode .git {
+    background-color: transparent;
+    color: gray;
+  }
+  
+  /* Hover effect for the "Git" button in Dark Mode */
+  body.dark-mode .git:hover {
+    background-color: transparent;
+    color: white;
+  }
+  
