@@ -84,14 +84,14 @@ function toggleDarkMode() {
     body.classList.add("dark-mode");
     setTimeout(() => {
       darkModeButton.textContent = "🔅";
-    }, 200);
+    }, 150);
   } else {
     // Cambiar a Light Mode
     body.classList.remove("dark-mode");
     body.classList.add("light-mode");
     setTimeout(() => {
       darkModeButton.textContent = "🌙";
-    }, 200);
+    }, 150);
   }
 }
 

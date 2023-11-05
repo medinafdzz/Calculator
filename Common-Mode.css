@@ -32,4 +32,8 @@
     background-color: transparent;
     box-shadow: none;
   }
+
+  ::-webkit-scrollbar {
+  display: none;
+}
   

@@ -24,7 +24,8 @@ body {
     width: 380px;
     height: 550px;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 50px;
+    margin-right: 10px;
   }
   
   /* Styles for the calculator heading in Light Mode */
@@ -82,4 +83,3 @@ body {
     background-color: snow;
     box-shadow: none;
   }
-  
