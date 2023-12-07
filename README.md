@@ -1,4 +1,4 @@
-# Calculator V1.1
+# Calculator V1.2
 
 This is a simple calculator web application. It allows you to perform basic arithmetic operations and more.
 
@@ -12,7 +12,7 @@ This is a simple calculator web application. It allows you to perform basic arit
 
 ## Usage
 
-To use the calculator, download the `Calculator v1.1` file in your web browser. You can interact with the buttons to perform calculations.
+To use the calculator, download the `Calculator v1.2` file in your web browser. You can interact with the buttons to perform calculations.
 
 ## Repository Contents
 
